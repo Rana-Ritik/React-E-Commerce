@@ -60,7 +60,7 @@ import LoginForm from './Login'
 
 
 const App = () => {
-
+ console.log("hello")
   let {user,makeUser} =useContext(UserContext)
 
  useEffect(()=>{
